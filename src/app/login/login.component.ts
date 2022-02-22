@@ -13,7 +13,7 @@ export class LoginComponent {
     label: 'Se connecter',
     isSubmit: false,
   };
-  formFields: Formulaire[] = [
+  formField: Formulaire[] = [
     {
       id: 1,
       name: 'email',
